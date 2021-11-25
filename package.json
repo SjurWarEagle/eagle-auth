@@ -6,13 +6,13 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "docker:build": "docker-compose -f ../docker/docker-compose.yml build eagle-io",
-    "docker:up": "docker-compose -f ../docker/docker-compose.yml up",
-    "docker:down": "docker-compose -f ../docker/docker-compose.yml down",
+    "docker:build": "docker-compose -f docker/docker-compose.yml build eagle-auth",
+    "docker:up": "docker-compose -f docker/docker-compose.yml up",
+    "docker:down": "docker-compose -f docker/docker-compose.yml down",
     "docker:ps": "docker ps",
     "docker:stat": "docker stats",
-    "docker:ps2": "docker-compose -f ../docker/docker-compose.yml ps",
-    "docker:logs:follow": "docker-compose -f ../docker/docker-compose.yml logs -f",
+    "docker:ps2": "docker-compose -f docker/docker-compose.yml ps",
+    "docker:logs:follow": "docker-compose -f docker/docker-compose.yml logs -f",
 
     "prebuild": "rimraf dist",
     "build": "nest build",
