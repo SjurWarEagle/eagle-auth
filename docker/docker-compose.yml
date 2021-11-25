@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  eagle-auth:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile-EagleAuth
+    environment:
+      - SERVER_PORT=4150
+    restart: unless-stopped
