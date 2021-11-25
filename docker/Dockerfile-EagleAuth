@@ -18,8 +18,8 @@ COPY docker/scripts/start_all.sh /project/
 RUN chmod 777 /project/start_all.sh
 
 RUN rm -rf /etc/apt/apt.conf.d/90nginx
-#RUN service nginx restart
+
 EXPOSE 98
-#EXPOSE 3500
+
 STOPSIGNAL SIGTERM
 CMD ["/bin/bash", "-c", "/project/start_all.sh"]
