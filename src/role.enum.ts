@@ -1,4 +1,8 @@
 export enum Role {
-    User = 'user',
-    Admin = 'admin',
+    User = 'User',
+    UmlRead = 'UmlRead',
+    UmlWrite = 'UmlWrite',
+    FileRead = 'FileRead',
+    FileWrite = 'FileWrite',
+    Admin = 'Admin',
 }

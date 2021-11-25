@@ -1,7 +1,7 @@
 [
   {
     "user": "wareagle",
-    "permissions": [
+    "roles": [
       "Admin"
     ]
   }
